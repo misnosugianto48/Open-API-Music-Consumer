@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const config = {
   rabbitMq: {
     server: process.env.RABBITMQ_SERVER,
